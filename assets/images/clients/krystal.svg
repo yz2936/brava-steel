@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 110" role="img" aria-label="Krystal Engineering">
+  <!-- Crystal/diamond mark -->
+  <g transform="translate(20,18)">
+    <polygon points="36,4 60,30 36,68 12,30" fill="none" stroke="#0a1a3a" stroke-width="3"/>
+    <line x1="12" y1="30" x2="60" y2="30" stroke="#0a1a3a" stroke-width="3"/>
+    <line x1="36" y1="4" x2="36" y2="30" stroke="#c8102e" stroke-width="3"/>
+    <line x1="24" y1="17" x2="36" y2="30" stroke="#0a1a3a" stroke-width="2"/>
+    <line x1="48" y1="17" x2="36" y2="30" stroke="#0a1a3a" stroke-width="2"/>
+  </g>
+  <text x="100" y="52" font-family="Oswald, Arial, sans-serif" font-size="32" font-weight="700" fill="#0a1a3a" letter-spacing="2">KRYSTAL</text>
+  <text x="100" y="78" font-family="Roboto Condensed, Arial, sans-serif" font-size="10" font-weight="500" fill="#c8102e" letter-spacing="2.6">ENGINEERING · LTD</text>
+</svg>

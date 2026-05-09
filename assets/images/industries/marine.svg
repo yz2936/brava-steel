@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="m-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14213d"/>
+      <stop offset="1" stop-color="#2a4173"/>
+    </linearGradient>
+    <linearGradient id="m-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a4173"/>
+      <stop offset="1" stop-color="#14213d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="220" fill="url(#m-sky)"/>
+  <rect y="220" width="1200" height="200" fill="url(#m-water)"/>
+
+  <!-- Sun -->
+  <circle cx="980" cy="100" r="38" fill="rgba(241,243,246,0.18)"/>
+
+  <!-- Distant ships -->
+  <g fill="rgba(241,243,246,0.15)">
+    <path d="M120 250 L260 250 L240 268 L140 268 Z"/>
+    <rect x="180" y="232" width="60" height="18"/>
+    <rect x="200" y="218" width="20" height="14"/>
+  </g>
+
+  <!-- Main cargo vessel -->
+  <g stroke="#f1f3f6" stroke-width="3" fill="none" stroke-linejoin="miter">
+    <!-- Hull -->
+    <path d="M380 290 L880 290 L850 330 L410 330 Z"/>
+    <line x1="380" y1="290" x2="880" y2="290"/>
+    <!-- Waterline marks -->
+    <line x1="395" y1="312" x2="450" y2="312" stroke-width="1.5"/>
+    <line x1="800" y1="312" x2="855" y2="312" stroke-width="1.5"/>
+    <!-- Container deck -->
+    <rect x="430" y="260" width="380" height="30"/>
+    <!-- Containers (stacked) -->
+    <g stroke-width="1.5">
+      <rect x="440" y="220" width="50" height="40"/>
+      <rect x="495" y="220" width="50" height="40"/>
+      <rect x="550" y="220" width="50" height="40"/>
+      <rect x="605" y="220" width="50" height="40"/>
+      <rect x="660" y="220" width="50" height="40"/>
+      <rect x="715" y="220" width="50" height="40"/>
+      <rect x="770" y="220" width="35" height="40"/>
+      <rect x="465" y="180" width="50" height="40"/>
+      <rect x="520" y="180" width="50" height="40"/>
+      <rect x="575" y="180" width="50" height="40"/>
+      <rect x="630" y="180" width="50" height="40"/>
+      <rect x="685" y="180" width="50" height="40"/>
+    </g>
+    <!-- Bridge / superstructure -->
+    <rect x="800" y="190" width="50" height="70"/>
+    <line x1="810" y1="200" x2="845" y2="200"/>
+    <line x1="810" y1="215" x2="845" y2="215"/>
+    <line x1="810" y1="230" x2="845" y2="230"/>
+    <!-- Funnel -->
+    <rect x="830" y="160" width="14" height="30"/>
+    <!-- Mast -->
+    <line x1="820" y1="190" x2="820" y2="135"/>
+    <line x1="810" y1="155" x2="830" y2="155"/>
+    <!-- Bow -->
+    <path d="M380 290 L370 305 L390 320"/>
+  </g>
+
+  <!-- Water waves -->
+  <g stroke="rgba(241,243,246,0.22)" stroke-width="1.5" fill="none">
+    <path d="M0 340 Q100 332 200 340 T400 340 T600 340 T800 340 T1000 340 T1200 340"/>
+    <path d="M0 365 Q150 357 300 365 T600 365 T900 365 T1200 365"/>
+    <path d="M0 390 Q120 382 240 390 T500 390 T800 390 T1100 390 T1200 390"/>
+  </g>
+
+  <!-- Highlighted tubing label -->
+  <text x="600" y="412" text-anchor="middle" fill="#c43850" font-family="Oswald, Arial, sans-serif" font-size="11" letter-spacing="2">SEAWATER COOLING · 316L · 904L · DUPLEX</text>
+</svg>

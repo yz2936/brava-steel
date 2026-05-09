@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14213d"/>
+      <stop offset="1" stop-color="#1c3055"/>
+    </linearGradient>
+    <linearGradient id="og-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a4173" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#14213d" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky / background -->
+  <rect width="1200" height="420" fill="url(#og-bg)"/>
+  <!-- Subtle horizon lines -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <line x1="0" y1="170" x2="1200" y2="170"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+  </g>
+
+  <!-- Sun/light orb -->
+  <circle cx="950" cy="120" r="48" fill="rgba(196,56,80,0.25)"/>
+  <circle cx="950" cy="120" r="28" fill="rgba(196,56,80,0.55)"/>
+
+  <!-- Distant rig silhouette -->
+  <g fill="#2a4173" opacity="0.6">
+    <rect x="180" y="200" width="6" height="50"/>
+    <rect x="220" y="190" width="6" height="60"/>
+    <polygon points="170,200 240,200 230,250 175,250"/>
+  </g>
+
+  <!-- Main offshore platform -->
+  <g stroke="#f1f3f6" stroke-width="3" fill="none" stroke-linejoin="miter">
+    <!-- Legs in water -->
+    <line x1="500" y1="280" x2="500" y2="380"/>
+    <line x1="560" y1="280" x2="560" y2="380"/>
+    <line x1="700" y1="280" x2="700" y2="380"/>
+    <line x1="760" y1="280" x2="760" y2="380"/>
+    <!-- Cross bracing -->
+    <path d="M500 380 L560 280 M560 380 L500 280 M700 380 L760 280 M760 380 L700 280"/>
+    <!-- Deck -->
+    <rect x="470" y="240" width="320" height="44"/>
+    <!-- Modules -->
+    <rect x="490" y="200" width="60" height="44"/>
+    <rect x="570" y="180" width="80" height="64"/>
+    <rect x="670" y="200" width="50" height="44"/>
+    <rect x="730" y="190" width="50" height="54"/>
+    <!-- Derrick (drilling tower) -->
+    <polygon points="610,180 640,180 650,80 600,80"/>
+    <line x1="600" y1="80" x2="650" y2="80"/>
+    <line x1="603" y1="100" x2="647" y2="100"/>
+    <line x1="606" y1="120" x2="644" y2="120"/>
+    <line x1="609" y1="140" x2="641" y2="140"/>
+    <line x1="612" y1="160" x2="638" y2="160"/>
+    <!-- Crow's nest -->
+    <rect x="608" y="60" width="34" height="22"/>
+    <!-- Crane -->
+    <line x1="780" y1="180" x2="780" y2="240"/>
+    <line x1="780" y1="180" x2="850" y2="160"/>
+    <line x1="850" y1="160" x2="845" y2="200"/>
+    <!-- Flare -->
+    <path d="M460 200 L465 240 L455 240 Z" fill="#c43850" stroke="none"/>
+    <line x1="460" y1="200" x2="460" y2="240"/>
+  </g>
+
+  <!-- Water -->
+  <rect x="0" y="320" width="1200" height="100" fill="url(#og-water)"/>
+  <!-- Wave lines -->
+  <g stroke="rgba(241,243,246,0.18)" stroke-width="1.5" fill="none">
+    <path d="M0 340 Q150 332 300 340 T600 340 T900 340 T1200 340"/>
+    <path d="M0 360 Q200 352 400 360 T800 360 T1200 360"/>
+    <path d="M0 380 Q100 374 250 380 T500 380 T800 380 T1200 380"/>
+  </g>
+
+  <!-- Subsea pipeline indicator -->
+  <g stroke="#c43850" stroke-width="2.5" fill="none" stroke-dasharray="6 4" opacity="0.85">
+    <path d="M530 380 Q700 410 900 395"/>
+  </g>
+  <text x="700" y="408" text-anchor="middle" fill="#c43850" font-family="Oswald, Arial, sans-serif" font-size="11" letter-spacing="2">SUBSEA TUBING · DUPLEX 2205 / 2507</text>
+</svg>

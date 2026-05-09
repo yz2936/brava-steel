@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 110" role="img" aria-label="Stirlings Australia">
+  <!-- S monogram in shield -->
+  <g transform="translate(22,18)">
+    <path d="M2 2 H72 V46 Q37 78 2 46 Z" fill="#0a1a3a" stroke="#c8102e" stroke-width="2"/>
+    <text x="37" y="52" font-family="Oswald, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
+  </g>
+  <text x="115" y="52" font-family="Oswald, Arial, sans-serif" font-size="32" font-weight="700" fill="#0a1a3a" letter-spacing="1">STIRLINGS</text>
+  <text x="115" y="78" font-family="Roboto Condensed, Arial, sans-serif" font-size="10" font-weight="500" fill="#c8102e" letter-spacing="2.4">PERFORMANCE STAINLESS · AUSTRALIA</text>
+</svg>

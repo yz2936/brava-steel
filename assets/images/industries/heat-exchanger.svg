@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hx-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c3055"/>
+      <stop offset="1" stop-color="#14213d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#hx-bg)"/>
+
+  <!-- Shell-and-tube heat exchanger cutaway -->
+  <g stroke="#f1f3f6" stroke-width="3" fill="none" stroke-linejoin="miter">
+    <!-- Outer shell -->
+    <rect x="180" y="130" width="840" height="170" rx="6"/>
+    <!-- Shell-side gap shading -->
+    <rect x="180" y="130" width="840" height="170" rx="6" fill="rgba(42,65,115,0.4)" stroke="none"/>
+    <!-- Tubesheet (left) -->
+    <rect x="180" y="130" width="14" height="170" fill="#1c3055"/>
+    <!-- Tubesheet (right) -->
+    <rect x="1006" y="130" width="14" height="170" fill="#1c3055"/>
+
+    <!-- Channel head left -->
+    <path d="M180 130 L120 130 L100 215 L120 300 L180 300"/>
+    <!-- Channel head right (with U-turn) -->
+    <path d="M1020 130 L1080 130 L1100 215 L1080 300 L1020 300"/>
+    <!-- Pass partition -->
+    <line x1="120" y1="215" x2="180" y2="215"/>
+  </g>
+
+  <!-- U-tubes (red highlight) -->
+  <g stroke="#c43850" stroke-width="2.5" fill="none">
+    <!-- Top half tubes go right then U-bend -->
+    <path d="M194 150 L990 150 Q1050 150 1050 175 Q1050 200 990 200 L194 200"/>
+    <path d="M194 165 L975 165 Q1035 165 1035 180 Q1035 195 975 195 L194 195"/>
+    <!-- More tube rows -->
+    <path d="M194 180 L960 180 Q1020 180 1020 185 Q1020 190 960 190 L194 190"/>
+    <!-- Bottom half tubes -->
+    <path d="M194 230 L975 230 Q1035 230 1035 245 Q1035 260 975 260 L194 260"/>
+    <path d="M194 245 L960 245 Q1020 245 1020 252 Q1020 260 960 260 L194 260" opacity="0.7"/>
+    <path d="M194 280 L990 280 Q1050 280 1050 265 Q1050 250 990 250 L194 250"/>
+  </g>
+
+  <!-- Baffles (vertical) -->
+  <g stroke="#f1f3f6" stroke-width="2" stroke-dasharray="4 4" opacity="0.45">
+    <line x1="320" y1="130" x2="320" y2="220"/>
+    <line x1="460" y1="220" x2="460" y2="300"/>
+    <line x1="600" y1="130" x2="600" y2="220"/>
+    <line x1="740" y1="220" x2="740" y2="300"/>
+    <line x1="880" y1="130" x2="880" y2="220"/>
+  </g>
+
+  <!-- Nozzles -->
+  <g stroke="#f1f3f6" stroke-width="3" fill="none">
+    <!-- Shell-side fluid in (top) -->
+    <line x1="320" y1="100" x2="320" y2="130"/>
+    <line x1="305" y1="80" x2="335" y2="80"/>
+    <line x1="305" y1="80" x2="305" y2="100"/>
+    <line x1="335" y1="80" x2="335" y2="100"/>
+    <line x1="305" y1="100" x2="335" y2="100"/>
+    <!-- Shell-side fluid out (bottom) -->
+    <line x1="880" y1="300" x2="880" y2="330"/>
+    <line x1="865" y1="350" x2="895" y2="350"/>
+    <line x1="865" y1="330" x2="865" y2="350"/>
+    <line x1="895" y1="330" x2="895" y2="350"/>
+    <line x1="865" y1="330" x2="895" y2="330"/>
+    <!-- Tube-side in (left) -->
+    <line x1="100" y1="170" x2="60" y2="170"/>
+    <line x1="60" y1="155" x2="60" y2="185"/>
+    <!-- Tube-side out (left lower) -->
+    <line x1="100" y1="265" x2="60" y2="265"/>
+    <line x1="60" y1="250" x2="60" y2="280"/>
+  </g>
+
+  <!-- Flow arrows -->
+  <g fill="#c43850">
+    <polygon points="320,55 314,68 326,68"/>
+    <polygon points="55,170 70,164 70,176"/>
+  </g>
+
+  <!-- Saddle supports -->
+  <g stroke="#f1f3f6" stroke-width="2.5" fill="none">
+    <path d="M280 300 L260 350 L420 350 L400 300"/>
+    <path d="M780 300 L760 350 L920 350 L900 300"/>
+  </g>
+
+  <!-- Label -->
+  <text x="600" y="392" text-anchor="middle" fill="#c43850" font-family="Oswald, Arial, sans-serif" font-size="11" letter-spacing="2">SHELL-AND-TUBE · U-BEND · 304L · 316L · 904L · DUPLEX</text>
+</svg>

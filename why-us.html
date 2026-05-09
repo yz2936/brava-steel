@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>Why BRAVA | The BRAVA Process — Sourcing, QC &amp; Service</title>
+<meta name="description" content="The BRAVA process — supplier validation, document & quality acceptance, packaging, logistics, and after-sales support. A transparent end-to-end framework for stainless and alloy tubing distribution." />
+<link rel="icon" type="image/png" href="assets/images/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="top-rail">
+  <div class="container">
+    <div class="top-rail-info">
+      <span><span class="icon">●</span> 20+ Years of Industry Expertise</span>
+      <span><span class="icon">●</span> Global Inventory Network</span>
+      <span><span class="icon">●</span> 24/7 Technical Support</span>
+    </div>
+    <div class="top-rail-cta"><a href="tel:+16365915760">+1 (636) 591-5760</a></div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo-link"><img src="assets/images/logo.png" alt="BRAVA" /></a>
+    <button class="menu-toggle" aria-label="Toggle navigation">≡</button>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <div class="has-dropdown">
+        <a href="about.html">About</a>
+        <div class="dropdown">
+          <a href="about.html">About Us</a>
+          <a href="why-us.html">Why Us</a>
+        </div>
+      </div>
+      <a href="products.html">Products</a>
+      <a href="industries.html">Industries</a>
+      <div class="has-dropdown">
+        <a href="gallery.html">Resources</a>
+        <div class="dropdown">
+          <a href="gallery.html">Gallery</a>
+          <a href="news.html">News</a>
+          <a href="faqs.html">FAQs</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
+      <a href="quote.html" class="nav-cta">Get a Quote</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-banner" style="background: linear-gradient(120deg, rgba(5,13,31,0.92), rgba(13,43,92,0.78)), url('assets/images/gallery/manufacturing-marking-line-01.jpg') center/cover no-repeat;">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span> Why Us</div>
+    <h1>The BRAVA Process</h1>
+    <p class="page-banner-lead">A transparent five-stage workflow from mill to your dock — with a four-step QC checkpoint at the heart of every shipment.</p>
+  </div>
+</section>
+
+<!-- ===== END-TO-END PIPELINE + INBOUND ACCEPTANCE DEEP DIVE ===== -->
+<section class="section-dark">
+  <div class="container">
+    <span class="section-eyebrow">The BRAVA Process</span>
+    <h2 class="section-heading">From Mill to Your Dock — Five Stages.</h2>
+    <p class="section-lead">A clear, sequential workflow where every stage has a checklist, an owner, and an artifact you can audit. <strong>Stage 03 — Inbound Acceptance — is the heart of our quality discipline</strong>, with a four-step protocol detailed below.</p>
+
+    <!-- Top-level pipeline -->
+    <div class="pipeline">
+      <div class="pipe-step">
+        <div class="pipe-icon">🔍</div>
+        <h4>Source &amp; Stock</h4>
+        <p>Validated suppliers feed our four-warehouse global inventory.</p>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-icon">📋</div>
+        <h4>Pre-Ship Audit</h4>
+        <p>Docs &amp; quantity verified at the supplier before release.</p>
+      </div>
+      <div class="pipe-step is-focus">
+        <div class="pipe-icon">✓</div>
+        <h4>Inbound Acceptance</h4>
+        <p>4-step QC at our hub — see deep dive below.</p>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-icon">📦</div>
+        <h4>Pack &amp; Ship</h4>
+        <p>Polywooden cases, custom marks, full customs documentation.</p>
+      </div>
+      <div class="pipe-step">
+        <div class="pipe-icon">🤝</div>
+        <h4>After-Sales Support</h4>
+        <p>24/7 service, technical guidance, &amp; remediation if needed.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Visual bridge: arrow + red bar pointing into the deep dive -->
+  <div class="qc-bridge">
+    <div class="bridge-arrow"></div>
+    <div class="bridge-bar">Deep Dive · <strong>Stage 03</strong> · Inbound Acceptance</div>
+  </div>
+</section>
+
+<!-- The 4-step QC deep-dive sits flush against the dark pipeline section -->
+<section class="section-light" style="padding-top: 60px;">
+  <div class="container">
+    <h2 class="section-heading" style="margin-bottom: 8px;">The 4-Step QC Acceptance Workflow.</h2>
+    <p class="section-lead">When goods arrive at a BRAVA hub, every shipment runs through this four-step protocol — so <strong>quality is verified before the product ever moves toward you</strong>. Click any step to expand the inspection checklist.</p>
+
+    <div class="qc-toolbar">
+      <button id="qcExpandAll" type="button">Expand All</button>
+      <button id="qcCollapseAll" type="button">Collapse All</button>
+    </div>
+
+    <div class="qc-accordion" id="qcAccordion">
+
+      <div class="qc-row">
+        <button class="qc-row-header" type="button">
+          <div class="qc-row-num">01</div>
+          <div class="qc-row-icon">📄</div>
+          <div class="qc-row-title">
+            <span class="stage">Step One</span>
+            <h4>Document Review</h4>
+            <span class="summary">Packing list, Mill Test Certificate, and supplementary reports verified against contract &amp; standard.</span>
+          </div>
+          <span class="qc-row-tag">Pre-Acceptance</span>
+          <span class="qc-row-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="qc-row-detail"><div class="qc-row-detail-inner">
+          <ul>
+            <li><strong>Packing list</strong> — grade, spec, quantity match MTC</li>
+            <li><strong>Mill Test Certificate</strong> — chemistry &amp; mechanicals match standard</li>
+            <li><strong>Supplementary reports</strong> — raw-material MTC, IGC, hardness, dimensional</li>
+            <li><strong>Hold rule</strong> — any packing-list mismatch halts acceptance</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="qc-row">
+        <button class="qc-row-header" type="button">
+          <div class="qc-row-num">02</div>
+          <div class="qc-row-icon">📦</div>
+          <div class="qc-row-title">
+            <span class="stage">Step Two</span>
+            <h4>Packaging Inspection</h4>
+            <span class="summary">Outer packaging, shipping marks, moisture, and end-cap integrity all verified before unbundling.</span>
+          </div>
+          <span class="qc-row-tag">Visual</span>
+          <span class="qc-row-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="qc-row-detail"><div class="qc-row-detail-inner">
+          <ul>
+            <li><strong>Outer packaging</strong> — plywood case or woven sleeve integrity</li>
+            <li><strong>Shipping marks</strong> — must match packing list exactly</li>
+            <li><strong>Moisture &amp; bend check</strong> — any damage halts acceptance</li>
+            <li><strong>End caps</strong> — both ends capped &amp; sealed</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="qc-row">
+        <button class="qc-row-header" type="button">
+          <div class="qc-row-num">03</div>
+          <div class="qc-row-icon">🔢</div>
+          <div class="qc-row-title">
+            <span class="stage">Step Three</span>
+            <h4>Quantity Check</h4>
+            <span class="summary">Total package count and per-bundle count reconciled to the packing list, with photo documentation of any variance.</span>
+          </div>
+          <span class="qc-row-tag">Reconciliation</span>
+          <span class="qc-row-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="qc-row-detail"><div class="qc-row-detail-inner">
+          <ul>
+            <li><strong>Total package count</strong> matches packing list</li>
+            <li><strong>Per-bundle count</strong> matches packing list</li>
+            <li><strong>Photo documentation</strong> for any discrepancy</li>
+            <li><strong>Escalation</strong> — immediate report to procurement</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="qc-row">
+        <button class="qc-row-header" type="button">
+          <div class="qc-row-num">04</div>
+          <div class="qc-row-icon">🔍</div>
+          <div class="qc-row-title">
+            <span class="stage">Step Four</span>
+            <h4>Quality Inspection</h4>
+            <span class="summary">Sampled surface, inner wall, straightness, end finish, marking &amp; dimensions — all gauge-verified to spec.</span>
+          </div>
+          <span class="qc-row-tag">Gauge &amp; Visual</span>
+          <span class="qc-row-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="qc-row-detail"><div class="qc-row-detail-inner">
+          <ul>
+            <li><strong>Surface</strong> — scratches, pits, scale, discoloration (≥10% sample)</li>
+            <li><strong>Inner wall</strong> — borescope check for draw marks &amp; scale</li>
+            <li><strong>Straightness &amp; ends</strong> — bend check &amp; deburred ends</li>
+            <li><strong>Marking &amp; dimensions</strong> — OD/WT/length verified by gauge</li>
+          </ul>
+        </div></div>
+      </div>
+
+    </div>
+
+    <script>
+      (function () {
+        const acc = document.getElementById('qcAccordion');
+        if (!acc) return;
+        acc.querySelectorAll('.qc-row-header').forEach(btn => {
+          btn.addEventListener('click', () => btn.parentElement.classList.toggle('open'));
+        });
+        const expand = document.getElementById('qcExpandAll');
+        const collapse = document.getElementById('qcCollapseAll');
+        if (expand) expand.addEventListener('click', () =>
+          acc.querySelectorAll('.qc-row').forEach(r => r.classList.add('open')));
+        if (collapse) collapse.addEventListener('click', () =>
+          acc.querySelectorAll('.qc-row').forEach(r => r.classList.remove('open')));
+      })();
+    </script>
+
+    <p style="margin-top: 32px; padding: 20px 24px; background: rgba(200,16,46,0.06); border-left: 4px solid var(--red); color: var(--navy-dark); font-size: 0.95rem;">
+      <strong>If a defect is found:</strong> the affected lot is photographed, escalated to procurement, and returned to the supplier for <strong>replacement — not silently rejected</strong>. We treat every shipment as our reputation, not as a transaction.
+    </p>
+  </div>
+</section>
+
+<!-- ===== TECH SUPPORT FLOW ===== -->
+<section class="section-light">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <span class="section-eyebrow">Technical Support · How To</span>
+        <h2 class="section-heading">Reach Our Engineering Team.</h2>
+        <p>If you're working through grade selection, troubleshooting an existing shipment, or evaluating a custom application, our technical team responds same-business-day. Use the four-step submission flow below for the fastest, most accurate answer.</p>
+        <ol class="step-list">
+          <li><strong>Email us</strong> at <a href="mailto:tech@brava-steel.com">tech@brava-steel.com</a> describing the issue.</li>
+          <li><strong>Attach relevant photos</strong> — product, service environment, or condition.</li>
+          <li><strong>Attach the Mill Test Certificate</strong> &amp; invoice that match the order.</li>
+          <li><strong>Receive a response</strong> from our technical team — typically same business day.</li>
+        </ol>
+      </div>
+      <div class="two-col-img" style="background-image:url('assets/images/gallery/manufacturing-tube-marking-closeup.jpg')"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS BAR ===== -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="stats-bar-grid">
+      <div class="stat-block"><div class="num"><span data-count="5" data-suffix="">5</span></div><div class="label">Pipeline Stages</div></div>
+      <div class="stat-block"><div class="num"><span data-count="4" data-suffix="">4</span></div><div class="label">QC Acceptance Steps</div></div>
+      <div class="stat-block"><div class="num"><span data-count="100" data-suffix="%">100%</span></div><div class="label">MTC Documented</div></div>
+      <div class="stat-block"><div class="num"><span data-count="24" data-suffix="/7">24/7</span></div><div class="label">Customer Support</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="container">
+    <div class="cta-strip-grid">
+      <div>
+        <h2>Process You Can Audit.</h2>
+        <p>Talk to our team about how the BRAVA framework fits your spec, your timeline, and your supply-chain risk profile.</p>
+      </div>
+      <div><a href="contact.html" class="btn btn-dark">Talk to Us →</a></div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <img src="assets/images/logo.png" alt="BRAVA" />
+          <p>BRAVA Stainless Steel is an international distributor specializing in seamless stainless and alloy tubes &amp; pipes. We bring 20+ years of manufacturing expertise to clients across oil &amp; gas, petrochemical, marine, and instrument industries.</p>
+        </div>
+        <div class="footer-col"><h4>Sitemap</h4><ul>
+          <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li>
+          <li><a href="why-us.html">Why Us</a></li><li><a href="products.html">Products</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Products</h4><ul>
+          <li><a href="products.html#series-300">300 Series</a></li>
+          <li><a href="products.html#series-400">400 Series</a></li>
+          <li><a href="products.html#series-special">Special Steel</a></li>
+          <li><a href="products.html#series-low">Low Alloy Steel</a></li>
+          <li><a href="quote.html">Get a Quote</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul>
+          <li>📞 <a href="tel:+16365915760">+1 (636) 591-5760</a></li>
+          <li>✉ <a href="mailto:info@brava-steel.com">info@brava-steel.com</a></li>
+          <li>🏭 China · Korea · Australia · Indonesia</li>
+          <li>🕐 24/7 Customer Service</li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div>© <span id="yr">2026</span> BRAVA Stainless Steel. All rights reserved.</div>
+        <div>ASTM · ASME Compliant · Mill Test Certified</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
