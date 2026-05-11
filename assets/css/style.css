@@ -2459,31 +2459,88 @@ section { padding: 80px 0; }
     color: var(--red);
 }
 
-/* Marquee scrolling on tight pages (optional) */
+/* Rolling client logo banner */
 .client-marquee {
     overflow: hidden;
     width: 100%;
-    background: var(--silver-light);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-    padding: 18px 0;
+    background: var(--white);
+    border: 1px solid var(--border);
+    position: relative;
+}
+.client-marquee::before,
+.client-marquee::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 92px;
+    z-index: 2;
+    pointer-events: none;
+}
+.client-marquee::before {
+    left: 0;
+    background: linear-gradient(90deg, var(--white), rgba(255,255,255,0));
+}
+.client-marquee::after {
+    right: 0;
+    background: linear-gradient(270deg, var(--white), rgba(255,255,255,0));
 }
 .client-marquee-track {
     display: flex;
     align-items: center;
-    gap: 64px;
+    gap: 0;
     width: max-content;
-    animation: marquee 36s linear infinite;
+    animation: client-marquee 34s linear infinite;
 }
-.client-marquee img {
-    height: 50px;
-    width: auto;
-    filter: grayscale(100%);
-    opacity: 0.65;
+.client-marquee:hover .client-marquee-track {
+    animation-play-state: paused;
 }
-@keyframes marquee {
+.client-marquee .client-logo {
+    flex: 0 0 250px;
+    height: 132px;
+    padding: 24px 32px;
+    border-right: 1px solid var(--border);
+    border-bottom: 0;
+}
+.client-marquee .client-logo img {
+    max-width: 210px;
+    height: 82px;
+    filter: grayscale(8%);
+    opacity: 0.86;
+}
+.client-marquee .client-logo:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+@keyframes client-marquee {
     from { transform: translateX(0); }
     to   { transform: translateX(-50%); }
+}
+@media (max-width: 640px) {
+    .client-marquee::before,
+    .client-marquee::after {
+        width: 38px;
+    }
+    .client-marquee .client-logo {
+        flex-basis: 190px;
+        height: 108px;
+        padding: 18px 24px;
+    }
+    .client-marquee .client-logo img {
+        max-width: 160px;
+        height: 66px;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .client-marquee-track {
+        animation: none;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .client-marquee .client-logo[aria-hidden="true"] {
+        display: none;
+    }
 }
 
 /* ============== GALLERY ============== */

@@ -1,12 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 110" role="img" aria-label="Amardeep Steel Centre">
-  <!-- Steel-bar / pipe stack mark -->
-  <g transform="translate(20,22)">
-    <circle cx="14" cy="20" r="13" fill="none" stroke="#0a1a3a" stroke-width="3"/>
-    <circle cx="42" cy="20" r="13" fill="none" stroke="#0a1a3a" stroke-width="3"/>
-    <circle cx="14" cy="46" r="13" fill="none" stroke="#c8102e" stroke-width="3"/>
-    <circle cx="42" cy="46" r="13" fill="none" stroke="#0a1a3a" stroke-width="3"/>
-    <circle cx="28" cy="33" r="13" fill="none" stroke="#0a1a3a" stroke-width="3"/>
-  </g>
-  <text x="100" y="50" font-family="Oswald, Arial, sans-serif" font-size="28" font-weight="700" fill="#0a1a3a" letter-spacing="0.8">AMARDEEP</text>
-  <text x="100" y="78" font-family="Oswald, Arial, sans-serif" font-size="14" font-weight="500" fill="#c8102e" letter-spacing="3">STEEL CENTRE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 120" role="img" aria-label="Amardeep Steel Centre LLP">
+  <rect width="390" height="120" fill="#ffffff"/>
+  <text x="12" y="64" font-family="Arial Black, Impact, Arial, sans-serif" font-size="74" font-weight="900" fill="#093477" letter-spacing="2">ASC</text>
+  <line x1="12" y1="82" x2="378" y2="82" stroke="#093477" stroke-width="4"/>
+  <text x="17" y="106" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#093477" letter-spacing="1">AMARDEEP STEEL CENTRE LLP</text>
 </svg>

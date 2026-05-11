@@ -1,9 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 110" role="img" aria-label="Stirlings Australia">
-  <!-- S monogram in shield -->
-  <g transform="translate(22,18)">
-    <path d="M2 2 H72 V46 Q37 78 2 46 Z" fill="#0a1a3a" stroke="#c8102e" stroke-width="2"/>
-    <text x="37" y="52" font-family="Oswald, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
-  </g>
-  <text x="115" y="52" font-family="Oswald, Arial, sans-serif" font-size="32" font-weight="700" fill="#0a1a3a" letter-spacing="1">STIRLINGS</text>
-  <text x="115" y="78" font-family="Roboto Condensed, Arial, sans-serif" font-size="10" font-weight="500" fill="#c8102e" letter-spacing="2.4">PERFORMANCE STAINLESS · AUSTRALIA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Stirlings Performance Stainless">
+  <rect width="320" height="120" fill="#ffffff"/>
+  <text x="24" y="60" font-family="Arial Black, Impact, Arial, sans-serif" font-size="40" font-weight="900" fill="#17376c" letter-spacing="-2">STIRLINGS</text>
+  <rect x="28" y="64" width="222" height="14" fill="#b8c63d"/>
+  <text x="45" y="75" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#20325d" letter-spacing="4">PERFORMANCE STAINLESS</text>
 </svg>
